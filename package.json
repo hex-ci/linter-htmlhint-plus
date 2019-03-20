@@ -112,11 +112,6 @@
   "release": {
     "extends": "@semantic-release/apm-config"
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "renovate": {
     "extends": [
       "config:base"
