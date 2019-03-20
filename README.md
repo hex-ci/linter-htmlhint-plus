@@ -1,4 +1,4 @@
-# linter-htmlhint-plus package
+# linter-htmlhint+ package
 [![Version](https://img.shields.io/apm/v/linter-htmlhint-plus.svg?style=flat-square)](https://atom.io/packages/linter-htmlhint-plus)
 [![Status Linux & OSX](https://img.shields.io/travis/hex-ci/linter-htmlhint-plus.svg?style=flat-square&label=Linux%20%26%20OSX)](https://travis-ci.org/hex-ci/linter-htmlhint-plus)
 [![Status Windows](https://img.shields.io/appveyor/ci/hex-ci/linter-htmlhint-plus.svg?style=flat-square&label=Windows)](https://ci.appveyor.com/project/hex-ci/linter-htmlhint-plus)
