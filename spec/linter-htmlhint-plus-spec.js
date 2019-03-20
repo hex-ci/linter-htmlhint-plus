@@ -15,7 +15,7 @@ describe('The htmlhint provider for Linter', () => {
 
   beforeEach(async () => {
     atom.workspace.destroyActivePaneItem();
-    await atom.packages.activatePackage('linter-htmlhint');
+    await atom.packages.activatePackage('linter-htmlhint-plus');
     await atom.packages.activatePackage('language-html');
   });
 
@@ -39,7 +39,7 @@ describe('The htmlhint provider for Linter', () => {
 
   describe('The "Disable when no HTMLHint config is found" option', () => {
     it('lints files with no config when disabled', async () => {
-      atom.config.set('linter-htmlhint.disableWhenNoHtmlhintConfig', false);
+      atom.config.set('linter-htmlhint-plus.disableWhenNoHtmlhintConfig', false);
 
       const editor = await atom.workspace.open(badFile);
       spyOn(editor, 'getPath').andReturn(__dirname);
@@ -49,7 +49,7 @@ describe('The htmlhint provider for Linter', () => {
     });
 
     it("doesn't lint files with no config when enabled", async () => {
-      atom.config.set('linter-htmlhint.disableWhenNoHtmlhintConfig', true);
+      atom.config.set('linter-htmlhint-plus.disableWhenNoHtmlhintConfig', true);
 
       const editor = await atom.workspace.open(badFile);
       spyOn(editor, 'getPath').andReturn(__dirname);

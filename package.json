@@ -30,6 +30,16 @@
       "title": "Disable when no HTMLHint config is found",
       "type": "boolean",
       "default": true
+    },
+    "ignoreCustomFragments": {
+      "description": "List of regex'es that allow to ignore certain fragments, when run HTMLHint (e.g. <?php ... ?>, {{ ... }}, etc.)",
+      "type": "array",
+      "default": [
+        "/<\\?(?:php|=)?(?:[\\s\\S])+?\\?>/gi"
+      ],
+      "items": {
+        "type": "string"
+      }
     }
   },
   "scripts": {
