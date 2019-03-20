@@ -1,6 +1,6 @@
 {
   "name": "linter-htmlhint-plus",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "description": "A plugin for Atom Linter providing an interface to HTMLHint. fork from linter-htmlhint.",
   "main": "lib/index.js",
   "repository": {
