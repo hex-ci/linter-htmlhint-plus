@@ -1,12 +1,12 @@
 {
-  "name": "linter-htmlhint",
+  "name": "linter-htmlhint-plus",
   "version": "1.6.0",
   "private": true,
-  "description": "A plugin for Atom Linter providing an interface to HTMLHint.",
+  "description": "A plugin for Atom Linter providing an interface to HTMLHint. fork from linter-htmlhint.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AtomLinter/linter-htmlhint.git"
+    "url": "https://github.com/hex-ci/linter-htmlhint-plus.git"
   },
   "engines": {
     "atom": ">=1.4.0 <2.0.0"
@@ -43,9 +43,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AtomLinter/linter-htmlhint/issues"
+    "url": "https://github.com/hex-ci/linter-htmlhint-plus/issues"
   },
-  "homepage": "https://github.com/AtomLinter/linter-htmlhint#readme",
+  "homepage": "https://github.com/hex-ci/linter-htmlhint-plus",
   "dependencies": {
     "atom-linter": "10.0.0",
     "atom-package-deps": "5.0.0",
@@ -107,11 +107,6 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "renovate": {
     "extends": [
