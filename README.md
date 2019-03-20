@@ -1,7 +1,8 @@
-# linter-htmlhint
+# linter-htmlhint-plus
 
-A plugin for [Linter] providing an interface to [HTMLHint]. It will be
-used with files that have the syntax.
+A plugin for [Linter] providing an interface to [HTMLHint]. It will be used with files that have the syntax. 
+
+fork from linter-htmlhint.
 
 ## Installation
 
