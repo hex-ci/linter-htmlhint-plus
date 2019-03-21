@@ -8,6 +8,8 @@ A plugin for [Linter] providing an interface to [HTMLHint]. It will be used with
 
 Support for ignoring text using custom regular expressions.
 
+If you have new needs, you can write in the issue, thank you.
+
 Fork from linter-htmlhint.
 
 ## Installation
